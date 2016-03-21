@@ -1,6 +1,6 @@
 === startdev ===
 
-Contributors: automattic
+Contributors: Mohammad Anas
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
 
 Requires at least: 4.0
@@ -13,7 +13,7 @@ A starter theme called startdev, or underscores.
 
 == Description ==
 
-Hi. I'm a starter theme called startdev, or underscores, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Hi. I'm a starter theme called startdev based on underscores, if you like. 
 
 == Installation ==
 	
@@ -25,11 +25,11 @@ Hi. I'm a starter theme called startdev, or underscores, if you like. I'm a them
 
 = Does this theme support any plugins? =
 
-startdev includes support for Infinite Scroll in Jetpack.
+No
 
 == Changelog ==
 
-= 1.0 - May 12 2015 =
+= 1.0 - March 21 2016 =
 * Initial release
 
 == Credits ==

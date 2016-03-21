@@ -10,17 +10,12 @@
 if ( ! function_exists( 'startdev_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
- *
- * Note that this function is hooked into the after_setup_theme hook, which
- * runs before the init hook. The init hook is too late for some features, such
- * as indicating support for post thumbnails.
+ 
  */
 function startdev_setup() {
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on startdev, use a find and replace
-	 * to change 'startdev' to the name of your theme in all the template files.
 	 */
 	load_theme_textdomain( 'startdev', get_template_directory() . '/languages' );
 
@@ -29,16 +24,12 @@ function startdev_setup() {
 
 	/*
 	 * Let WordPress manage the document title.
-	 * By adding theme support, we declare that this theme does not use a
-	 * hard-coded <title> tag in the document head, and expect WordPress to
-	 * provide it for us.
 	 */
 	add_theme_support( 'title-tag' );
 
 	/*
 	 * Enable support for Post Thumbnails on posts and pages.
 	 *
-	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
 
@@ -61,7 +52,6 @@ function startdev_setup() {
 
 	/*
 	 * Enable support for Post Formats.
-	 * See https://developer.wordpress.org/themes/functionality/post-formats/
 	 */
 	add_theme_support( 'post-formats', array(
 		'aside',
@@ -95,7 +85,6 @@ add_action( 'after_setup_theme', 'startdev_content_width', 0 );
 /**
  * Register widget area.
  *
- * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
 function startdev_widgets_init() {
 	register_sidebar( array(
@@ -146,7 +135,4 @@ require get_template_directory() . '/inc/extras.php';
  */
 require get_template_directory() . '/inc/customizer.php';
 
-/**
- * Load Jetpack compatibility file.
- */
-require get_template_directory() . '/inc/jetpack.php';
+
