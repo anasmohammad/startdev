@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/Automattic/Startdev.svg?branch=master)](https://travis-ci.org/Automattic/Startdev)
 
 ##Startdev
 ===
@@ -12,5 +11,7 @@
 * A sample custom header implementation 
 * Custom template tags
 * Licensed under GPLv2 or later. :) Use it to make something cool.
+* Bootstrap 3.3.5
+* Bootstrap Nav Walker 
 
 Good luck!
